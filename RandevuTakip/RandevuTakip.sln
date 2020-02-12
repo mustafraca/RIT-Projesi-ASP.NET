@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandevuTakip", "RandevuTakip\RandevuTakip.csproj", "{2832161A-6E77-4261-8A03-9A0011876CC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2832161A-6E77-4261-8A03-9A0011876CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2832161A-6E77-4261-8A03-9A0011876CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2832161A-6E77-4261-8A03-9A0011876CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2832161A-6E77-4261-8A03-9A0011876CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {819C728B-0624-4330-935F-45AD698B7E2D}
+	EndGlobalSection
+EndGlobal

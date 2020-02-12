@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="RandevuTakip.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Randevulu İş Takip</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<form runat="server">
+
+	<header id="header">
+		<div class="inner">
+			<a href="Default.aspx" class="logo"><strong>RİT</strong> - Randevulu İş Takip</a>
+			    <nav id="nav">
+					<a href="Default.aspx">Anasayfa</a>
+					<a href="OturumAc.aspx">Oturum Aç</a>
+					<a href="Panel.aspx">RİT'i Aç</a>
+				</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
+
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+	<footer id="footer">
+		<div class="inner">
+			<div class="copyright">
+				&copy; Tüm Hakları Saklıdır. Doğukan YILMAZ - BİR KOÜ MYO PROJESİDİR. RİT - Randevulu İş Takip
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</form>
+</body>
+</html>
